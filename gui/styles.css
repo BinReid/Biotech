@@ -1,0 +1,75 @@
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+QWidget {
+    font-family: 'Segoe UI', Arial;
+    font-size: 10pt;
+}
+
+QGroupBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+QGroupBox::title {
+    left: 10px;
+    padding: 0 3px;
+}
+
+QDoubleSpinBox, QComboBox {
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    min-width: 100px;
+}
+
+/* Кнопки */
+QPushButton {
+    padding: 7px 15px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+#startButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stopButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#cancelButton {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Лог событий */
+QTextEdit#eventLog {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'Consolas', monospace;
+}
+
+.error-message {
+    color: #f44336;
+    font-weight: bold;
+}
+
+.success-message {
+    color: #4CAF50;
+}
+
+/* Экран загрузки */
+QSplashScreen {
+    background-color: #2196F3;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
